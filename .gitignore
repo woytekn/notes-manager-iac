@@ -1,0 +1,29 @@
+# Ignore the .terraform folder
+.terraform/
+
+# Ignore terraform state files and backups
+*.tfstate
+*.tfstate.backup
+
+# Ignore sensitive data files like DB credentials and private keys
+terraform.tfvars
+terraform-key.pem
+
+# Ignore Terraform lock files
+*.lock.hcl
+
+# Ignore binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore the node_modules folder (if you're using Node.js)
+node_modules/
+
+# Ignore build folders (for Docker or other build systems)
+dist/
+build/
+
+# Ignore local environment configuration files
+.env
